@@ -28,6 +28,7 @@
         "arrow-body-style": ["off"],
         "object-curly-newline": ["off"],
         "react/jsx-filename-extension": ["off"],
+        "react/prop-types": ["off"],
         "react/state-in-constructor": ["off"],
         "react/prefer-stateless-function": ["off"],
         "react/require-default-props": ["off"]

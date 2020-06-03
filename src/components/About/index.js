@@ -1,8 +1,18 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
   return (
-    <h1>Hello World!</h1>
+    <div>
+      <Helmet>
+        <style>{'body { background-color: #37373b; }'}</style>
+      </Helmet>
+      <h1>About!</h1>
+      <h1>About!</h1>
+      <h1>About!</h1>
+      <h1>About!</h1>
+      <h1>About!</h1>
+    </div>
   );
 };
 
