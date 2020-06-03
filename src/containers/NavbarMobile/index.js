@@ -31,11 +31,11 @@ class NavbarMobile extends Component {
           vertical
           visible={sidebarOpened}
         >
-          <Menu.Item as={NavLink} to="/about" position="right" activeclassname="active" style={{ fontSize: '18px' }}>
+          <Menu.Item as={NavLink} to="/about" position="right" activeclassname="active" style={{ fontSize: '20px' }}>
             <Icon name="user circle" />
             About
           </Menu.Item>
-          <Menu.Item as={NavLink} to="/portfolio" position="right" activeclassname="active" style={{ fontSize: '18px' }}>
+          <Menu.Item as={NavLink} to="/portfolio" position="right" activeclassname="active" style={{ fontSize: '20px' }}>
             <Icon name="browser" />
             Portfolio
           </Menu.Item>

@@ -8,21 +8,8 @@ const Footer = () => {
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
-            <Grid.Column width={7}>
-              <Header as="h1" inverted content="Placeholder" />
-              <p>
-                Placeholder
-              </p>
-              <p>
-                Placeholder
-              </p>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as="h3" content="Get Started" />
-              <p>Placeholder</p>
-            </Grid.Column>
-            <Grid.Column width={6}>
-              <Header inverted as="h3" content="Contact Us" />
+            <Grid.Column width={8}>
+              <Header inverted as="h3" content="Contact Me" />
               <List link inverted selection animated>
                 <List.Item>
                   <List.Icon name="mail" />
@@ -33,16 +20,16 @@ const Footer = () => {
                   </List.Content>
                 </List.Item>
               </List>
-              <Grid.Row>
-                <List link inverted horizontal selection>
-                  <Header inverted as="h3" content="GitHub" />
-                  <List.Item>
-                    <a href="https://github.com/NMantohac" target="_blank" rel="noopener noreferrer">
-                      <Image src={pfp} circular width="65" height="65" />
-                    </a>
-                  </List.Item>
-                </List>
-              </Grid.Row>
+            </Grid.Column>
+            <Grid.Column width={8}>
+              <List link inverted horizontal selection>
+                <Header inverted as="h3" content="GitHub" />
+                <List.Item>
+                  <a href="https://github.com/NMantohac" target="_blank" rel="noopener noreferrer">
+                    <Image src={pfp} circular width="65" height="65" />
+                  </a>
+                </List.Item>
+              </List>
             </Grid.Column>
           </Grid.Row>
           <Divider />
