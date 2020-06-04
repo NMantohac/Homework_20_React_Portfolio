@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link, NavLink } from 'react-router-dom';
-import { Responsive, Sidebar, Menu, Icon } from 'semantic-ui-react';
+import { Responsive, Sidebar, Menu, Segment, Header, Icon } from 'semantic-ui-react';
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined';
@@ -50,7 +50,9 @@ class NavbarMobile extends Component {
             style={{ height: '11vh' }}
           >
             <Menu.Item as={Link} to="/" header>
-              <h1 style={{ marginTop: '-3px', marginRight: '0.5em' }}>Norberto Mantohac</h1>
+              <Segment style={{ background: 'gray' }}>
+                <Header style={{ marginTop: '-3px', fontSize: '24px' }}>Norberto Mantohac</Header>
+              </Segment>
             </Menu.Item>
             <Menu.Item onClick={this.handleToggle} position="right">
               <Icon name="sidebar" />
