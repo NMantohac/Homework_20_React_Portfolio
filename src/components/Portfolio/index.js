@@ -332,7 +332,7 @@ const Portfolio = () => {
                             <span className="date">03/17/20</span>
                           </Card.Meta>
                           <Card.Description>
-                            A simple 'About Me' website layout that incldues semantic HTML tags and a navbar that contains the links to 'About/Portfolio/Contact' pages. The website is also a responsive layout for mobile screens, which means that the elements are nicely fit in different screens sizes
+                            A simple 'About Me' website layout that incldues semantic HTML tags and a navbar that contains the links to 'About/Portfolio/Contact' pages
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
