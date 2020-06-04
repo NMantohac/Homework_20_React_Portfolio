@@ -14,11 +14,11 @@ const About = () => {
       <Grid container centered style={{ padding: '10em 3em' }}>
         <Grid.Row>
           <Grid.Column style={{ maxWidth: 1000 }}>
-            <Segment textAlign="center" style={{ marginLeft: '5em 0em', backgroundColor: 'silver' }}>
+            <Segment textAlign="center" style={{ backgroundColor: 'silver' }}>
               <Header style={{ textDecoration: 'underline', fontSize: '48px' }}>About Me</Header>
               <Divider />
               <Grid verticalAlign="middle">
-                <Grid.Row columns={2}>
+                <Grid.Row>
                   <Grid.Column width={16}>
                     <Grid centered>
                       <Image src={pfp1} height="300" width="300" style={{ marginTop: '20px' }} />
