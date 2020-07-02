@@ -28,7 +28,7 @@ const About = () => {
               </Grid>
               <Grid textAlign="left">
                 <Grid.Row columns={1}>
-                  <Grid.Column width={16} style={{ marginLeft: '20px' }}>
+                  <Grid.Column width={16} style={{ marginLeft: '20px', textAlign: 'justify', textJustify: 'inter-character' }}>
                     <p style={{ fontSize: '20px' }}>I am a senior student at UC Berkeley that took a year off in order to pursue my interest in web development and programming in general.</p>
                     <p style={{ fontSize: '20px' }}>Little did I know that my interest grew into a passion during the time I was in the the UC Berkeley Extension Web Development Bootcamp. After I graduated from the program, I have continued to sharpen my skills as a Full-Stack Developer and have been starting to look into more languages such as Java/Python/C++/etc.</p>
                     <p style={{ fontSize: '20px' }}>My major was Chemical Biology in the College of Chemistry, but I plan on continuing my education at UC Berkeley by switching into Computer Science in the College of Letters & Science or the College of Electrical Engineering and Computer Sciences, and obtain a CS degree.</p>
