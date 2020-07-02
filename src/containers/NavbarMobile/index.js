@@ -51,7 +51,7 @@ class NavbarMobile extends Component {
           >
             <Menu.Item as={Link} to="/" header>
               <Segment style={{ background: 'gray' }}>
-                <Header style={{ marginTop: '-3px', fontSize: '24px' }}>Norberto Mantohac</Header>
+                <Header style={{ marginTop: '-3px', fontSize: '24px' }}>Norberto Mantohac Jr</Header>
               </Segment>
             </Menu.Item>
             <Menu.Item onClick={this.handleToggle} position="right">

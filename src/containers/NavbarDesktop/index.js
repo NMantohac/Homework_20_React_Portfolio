@@ -23,7 +23,7 @@ class NavbarDesktop extends Component {
         >
           <Menu.Item as={Link} to="/" style={{ marginLeft: '1em' }}>
             <Segment style={{ background: 'gray' }}>
-              <Header style={{ marginTop: '-3px', fontSize: '24px' }}>Norberto Mantohac</Header>
+              <Header style={{ marginTop: '-3px', fontSize: '24px' }}>Norberto Mantohac Jr</Header>
             </Segment>
           </Menu.Item>
           <Menu.Item as={NavLink} to="/about" position="right" activeclassname="active" style={{ fontSize: '20px' }}>

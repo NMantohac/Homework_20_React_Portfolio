@@ -1,21 +1,22 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Grid, Segment, Header, Divider, Card, Image, Icon } from 'semantic-ui-react';
-import JobTrackR from '../../images/Job-TrackR.png';
-import StockTutorial from '../../images/Stock-Tutorial.png';
-import MusicBuster from '../../images/Music-Buster.png';
-import UserDirectory from '../../images/User-Directory.png';
-import FitnessTracker from '../../images/Fitness-Tracker.png';
-import EmployeeManagementSystem from '../../images/Employee-Management-System.png';
-import NoteTaker from '../../images/Note-Taker.png';
-import TeamProfileGenerator from '../../images/Team-Profile-Generator.png';
-import GoodREADMEGenerator from '../../images/Good-README-Generator.png';
-import WeatherDashboard from '../../images/Weather-Dashboard.png';
-import DayPlanner from '../../images/Day-Planner.png';
-import CodeQuiz from '../../images/Code-Quiz.png';
-import PasswordGenerator from '../../images/Password-Generator.png';
-import ResponsivePortfolio from '../../images/Responsive-Portfolio.png';
-import CodeRefactor from '../../images/Code-Refactor.png';
+import PHPLA from '../../images/PHPLA.jpg';
+import JobTrackR from '../../images/Job-TrackR.jpg';
+import StockTutorial from '../../images/Stock-Tutorial.jpg';
+import MusicBuster from '../../images/Music-Buster.jpg';
+import UserDirectory from '../../images/User-Directory.jpg';
+import FitnessTracker from '../../images/Fitness-Tracker.jpg';
+import EmployeeManagementSystem from '../../images/Employee-Management-System.jpg';
+import NoteTaker from '../../images/Note-Taker.jpg';
+import TeamProfileGenerator from '../../images/Team-Profile-Generator.jpg';
+import GoodREADMEGenerator from '../../images/Good-README-Generator.jpg';
+import WeatherDashboard from '../../images/Weather-Dashboard.jpg';
+import DayPlanner from '../../images/Day-Planner.jpg';
+import CodeQuiz from '../../images/Code-Quiz.jpg';
+import PasswordGenerator from '../../images/Password-Generator.jpg';
+import ResponsivePortfolio from '../../images/Responsive-Portfolio.jpg';
+import CodeRefactor from '../../images/Code-Refactor.jpg';
 
 const Portfolio = () => {
   return (
@@ -29,6 +30,34 @@ const Portfolio = () => {
             <Segment textAlign="center" style={{ backgroundColor: 'silver' }}>
               <Header style={{ textDecoration: 'underline', fontSize: '48px' }}>Portfolio</Header>
               <Divider />
+              <Grid textAlign="center" verticalAlign="middle">
+                <Grid.Row columns={3}>
+                  <Header style={{ fontSize: '36px' }}>Professional</Header>
+                  <Grid.Column width={16}>
+                    <Card.Group>
+                      <Card centered raised>
+                        <Image src={PHPLA} wrapped ui={false} />
+                        <Card.Content>
+                          <Card.Header>People Helping People In Los Angeles Inc. </Card.Header>
+                          <Card.Meta>
+                            <span className="date">07/01/20</span>
+                          </Card.Meta>
+                          <Card.Description>
+                            A non-profit organization that provides support to the homeless and the community.
+                          </Card.Description>
+                        </Card.Content>
+                        <Card.Content extra>
+                          <a href="http://www.phplosangeles.org/" target="_blank" rel="noopener noreferrer">
+                            <Icon name="window maximize" />
+                            Live
+                          </a>
+                        </Card.Content>
+                      </Card>
+                    </Card.Group>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+
               <Grid textAlign="center" verticalAlign="middle">
                 <Grid.Row columns={3}>
                   <Header style={{ fontSize: '36px' }}>Projects</Header>
