@@ -47,12 +47,8 @@ const Portfolio = () => {
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                          <a href="https://github.com/NMantohac/excelee-wise" target="_blank" rel="noopener noreferrer">
-                            <Icon name="github" />
-                            GitHub
-                          </a>
                           <a href="http://www.phplosangeles.org/" target="_blank" rel="noopener noreferrer">
-                            <Icon name="window maximize" style={{ marginLeft: '2em' }} />
+                            <Icon name="window maximize" />
                             Live
                           </a>
                         </Card.Content>
