@@ -24,9 +24,9 @@ const Portfolio = () => {
       <Helmet>
         <style>{'body { background-color: #37373b; }'}</style>
       </Helmet>
-      <Grid container centered style={{ padding: '10em 3em' }}>
+      <Grid container centered style={{ padding: '7em 1em' }}>
         <Grid.Row>
-          <Grid.Column style={{ maxWidth: 1500 }}>
+          <Grid.Column>
             <Segment textAlign="center" style={{ backgroundColor: 'silver' }}>
               <Header style={{ textDecoration: 'underline', fontSize: '48px' }}>Portfolio</Header>
               <Divider />
@@ -47,7 +47,7 @@ const Portfolio = () => {
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                          <a href="http://www.phplosangeles.org/" target="_blank" rel="noopener noreferrer">
+                          <a href="https://www.phplosangeles.org/" target="_blank" rel="noopener noreferrer">
                             <Icon name="window maximize" />
                             Live
                           </a>

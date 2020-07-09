@@ -2,8 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Grid, Segment, Header, Image, Divider, List, Icon } from 'semantic-ui-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import pfp1 from '../../images/pfp1.jpg';
+import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Me from '../../images/Me.jpg';
 
 const About = () => {
   return (
@@ -11,9 +11,9 @@ const About = () => {
       <Helmet>
         <style>{'body { background-color: #37373b; }'}</style>
       </Helmet>
-      <Grid container centered style={{ padding: '10em 3em' }}>
+      <Grid container centered style={{ padding: '7em 3em' }}>
         <Grid.Row>
-          <Grid.Column style={{ maxWidth: 1000 }}>
+          <Grid.Column>
             <Segment textAlign="center" style={{ backgroundColor: 'silver' }}>
               <Header style={{ textDecoration: 'underline', fontSize: '48px' }}>About Me</Header>
               <Divider />
@@ -21,18 +21,19 @@ const About = () => {
                 <Grid.Row>
                   <Grid.Column width={16}>
                     <Grid centered>
-                      <Image src={pfp1} height="300" width="300" style={{ marginTop: '20px' }} />
+                      <Image src={Me} style={{ marginTop: '20px' }} />
                     </Grid>
                   </Grid.Column>
                 </Grid.Row>
               </Grid>
-              <Grid textAlign="left">
-                <Grid.Row columns={1}>
-                  <Grid.Column width={16} style={{ marginLeft: '20px', textAlign: 'justify', textJustify: 'inter-character' }}>
-                    <p style={{ fontSize: '20px' }}>I am a senior student at UC Berkeley that took a year off in order to pursue my interest in web development and programming in general.</p>
-                    <p style={{ fontSize: '20px' }}>Little did I know that my interest grew into a passion during the time I was in the UC Berkeley Extension Web Development Bootcamp. After I graduated from the program, I have continued to sharpen my skills as a Full-Stack Developer and have been starting to look into more languages such as Java/Python/C++/etc.</p>
-                    <p style={{ fontSize: '20px' }}>My major was Chemical Biology in the College of Chemistry, but I plan on continuing my education at UC Berkeley by switching into Computer Science in the College of Letters & Science or the College of Electrical Engineering and Computer Sciences, and obtain a CS degree.</p>
-                    <p style={{ fontSize: '20px' }}>My overall goal and career-work is Software Engineering, as well as Video Game Design & Development somewhere down the line, using game engines such as Unity and/or Unreal Engine 4. I also have interest in creating art/animation through the graphics software, Blender. I really hope that I can become a skilled game developer that has worked on major AAA titles in the future!</p>
+              <Grid>
+                <Grid.Row>
+                  <Grid.Column style={{ textAlign: 'justify', textJustify: 'inter-character' }}>
+                    <p style={{ fontSize: '20px' }}>Certified Full-Stack Developer with a passion of learning new technologies, and finding opportunities to always improve on my skill set.</p>
+                    <p style={{ fontSize: '20px' }}>Active member in several web development communities, where I not only help others by debugging their code or providing resources and tips, but most importantly, I learn along with hard-working and passionate people to encourage an optimal learning environment.</p>
+                    <p style={{ fontSize: '20px' }}>Worked on projects, in which I was unanimously chosen as leader. Inexperienced at first, but I quickly grew comfortable with the people around me, and discovered that I love to actively support my team members. This allowed for the overall improvement of each project's quality and standard.</p>
+                    <p style={{ fontSize: '20px' }}>Attended UC Berkeley as an undergraduate in the College of Chemistry with an intended B.S. degree in Chemical Biology . </p>
+                    <p style={{ fontSize: '20px' }}>Other Interests: Python and C++/C#, Video Game Design & Development with Unity or Unreal Engine 4, Art/Animation with graphics software Blender. </p>
                     <Header as="h1" style={{ fontSize: '36px' }}>Contact Info</Header>
                     <List animated verticalAlign="middle">
                       <List.Item>
@@ -44,9 +45,9 @@ const About = () => {
                       </List.Item>
                       <List.Item>
                         <List.Content style={{ fontSize: '20px' }}>
-                          <FontAwesomeIcon icon={faFacebook} style={{ marginRight: '8px' }} />
-                          <strong>Facebook: </strong>
-                          <a href="https://www.facebook.com/profile.php?id=100007694470572" target="_blank" rel="noopener noreferrer">Norberto Mantohac Jr</a>
+                          <FontAwesomeIcon icon={faLinkedin} style={{ marginLeft: '2px' }} />
+                          <strong style={{ marginLeft: '8px' }}>LinkedIn: </strong>
+                          <a href="https://www.linkedin.com/in/norberto-mantohac-40514b1a2/" target="_blank" rel="noopener noreferrer">Norberto Mantohac</a>
                         </List.Content>
                       </List.Item>
                       <List.Item>
@@ -54,6 +55,13 @@ const About = () => {
                           <Icon name="github" />
                           <strong>GitHub: </strong>
                           <a href="https://github.com/NMantohac" target="_blank" rel="noopener noreferrer">NMantohac</a>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content style={{ fontSize: '20px' }}>
+                          <FontAwesomeIcon icon={faFacebook} style={{ marginLeft: '2px' }} />
+                          <strong style={{ marginLeft: '5px' }}>Facebook: </strong>
+                          <a href="https://www.facebook.com/profile.php?id=100007694470572" target="_blank" rel="noopener noreferrer">Norberto Mantohac Jr</a>
                         </List.Content>
                       </List.Item>
                     </List>
