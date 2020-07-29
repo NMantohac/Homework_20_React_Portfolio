@@ -28,7 +28,7 @@ const Portfolio = () => {
         <Grid.Row>
           <Grid.Column>
             <Segment textAlign="center" style={{ backgroundColor: 'silver' }}>
-              <Header style={{ textDecoration: 'underline', fontSize: '48px' }}>Portfolio</Header>
+              <Header style={{ fontSize: '48px' }}>Portfolio</Header>
               <Divider />
               <Grid textAlign="center" verticalAlign="middle">
                 <Grid.Row columns={3}>

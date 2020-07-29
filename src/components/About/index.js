@@ -11,11 +11,11 @@ const About = () => {
       <Helmet>
         <style>{'body { background-color: #37373b; }'}</style>
       </Helmet>
-      <Grid container centered style={{ padding: '7em 3em' }}>
+      <Grid container centered style={{ padding: '7em 1em' }}>
         <Grid.Row>
           <Grid.Column>
             <Segment textAlign="center" style={{ backgroundColor: 'silver' }}>
-              <Header style={{ textDecoration: 'underline', fontSize: '48px' }}>About Me</Header>
+              <Header style={{ fontSize: '48px' }}>About Me</Header>
               <Divider />
               <Grid verticalAlign="middle">
                 <Grid.Row>
@@ -29,11 +29,11 @@ const About = () => {
               <Grid>
                 <Grid.Row>
                   <Grid.Column style={{ textAlign: 'justify', textJustify: 'inter-character' }}>
-                    <p style={{ fontSize: '20px' }}>Certified Full-Stack Developer with a passion of learning new technologies, and finding opportunities to always improve on my skill set.</p>
-                    <p style={{ fontSize: '20px' }}>Active member in several web development communities, where I not only help others by debugging their code or providing resources and tips, but most importantly, I learn along with hard-working and passionate people to encourage an optimal learning environment.</p>
-                    <p style={{ fontSize: '20px' }}>Worked on projects, in which I was unanimously chosen as leader. Inexperienced at first, but I quickly grew comfortable with the people around me, and discovered that I love to actively support my team members. This allowed for the overall improvement of each project's quality and standard.</p>
+                    <p style={{ fontSize: '20px' }}>A certified Full-Stack Developer with a passion of learning new technologies, and finding opportunities to always improve on my skill set.</p>
+                    <p style={{ fontSize: '20px' }}>An active member in several web development communities, where I not only help beginner programmers by debugging their code or providing resources and tips, but most importantly, learning along with other hard-working and passionate developers to strongly encourage an optimal learning environment.</p>
+                    <p style={{ fontSize: '20px' }}>Worked on projects, in which I was unanimously chosen as a leader. Inexperienced at first, but I quickly grew comfortable with the people around me, and discovered that I love to actively support my team members and bring forth creative ideas. This allowed for the overall improvement of each project's quality and standard.</p>
                     <p style={{ fontSize: '20px' }}>Attended UC Berkeley as an undergraduate in the College of Chemistry with an intended B.S. degree in Chemical Biology . </p>
-                    <p style={{ fontSize: '20px' }}>Other Interests: Python and C++/C#, Video Game Design & Development with Unity or Unreal Engine 4, Art/Animation with graphics software Blender. </p>
+                    <p style={{ fontSize: '20px' }}>Other Interests: Python and C++/C#, Video Game Design & Development with Unity or Unreal Engine 4, Art/Animation with the graphics software, Blender. </p>
                     <Header as="h1" style={{ fontSize: '36px' }}>Contact Info</Header>
                     <List animated verticalAlign="middle">
                       <List.Item>
